@@ -2,11 +2,6 @@
 
 This repository contains a Flask API for credit card fraud detection using a machine learning model. The project includes pre-trained models, data preprocessing, and an API for making predictions. Below, you'll find information on how to use this code for local development, the project structure, and an explanation of the machine learning model.
 
-## ⚠️ Disclaimer
-
-Please note that this project is a proof of concept and can be used for educational and experimental purposes only. It is based on the Kaggle dataset obtained from [MLG - ULB's Credit Card Fraud Detection](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud). 
-
-As this dataset contains actual banking data, the original features have been omitted and replaced with derived features obtained through Principal Component Analysis (PCA) for privacy and security reasons. While this project provides a credit card fraud detection model in the "model/source-model.ipynb" notebook, it is essential to understand that the model's performance and suitability may vary when applied to different datasets or real-world scenarios. Feel free to use the model as a starting point and make suitable modifications to adapt it to your specific data and requirements. Always exercise caution and follow best practices when working with sensitive financial or personal data. 
 
 ## 📁 Project Structure
 
@@ -179,12 +174,3 @@ Example Output:
 ```
 Prediction: 0.0 --> Not Fraud
 ```
-
-
-## 🙏 Acknowledgments
-
-Much of what I learned and applied in this project was learnt from [Gregg Hogg's](https://www.youtube.com/GregHogg) YouTube channel. His tutorials and content in machine learning and data science significantly influenced the development.
-
-## 🤝 Contributions Welcome
-
-Contributions to this project are welcome! If you have ideas for improvements, bug fixes, or new features, please feel free to fork this repository, make your changes, and submit a pull request. Let's collaborate to make this project even better.
